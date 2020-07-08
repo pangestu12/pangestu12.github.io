@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
+</style><link type="text/css" rel="stylesheet" href="P_files/css.css"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
+</style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,0.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,0.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,0.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,0.3),0 1px 3px 1px rgba(60,64,67,0.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>P</title>
+	<!-- core CSS -->
+    <link href="P_files/bootstrap.css" rel="stylesheet">
+    <link href="P_files/font-awesome.css" rel="stylesheet">
+    <link href="P_files/animate.css" rel="stylesheet">
+    <link href="P_files/owl_002.css" rel="stylesheet">
+    <link href="P_files/owl.css" rel="stylesheet">
+    <link href="P_files/prettyPhoto.css" rel="stylesheet">
+    <link href="P_files/main.css" rel="stylesheet">
+    <link href="P_files/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="file:///C:/Users/PERINDAGKOP/Downloads/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="file:///C:/Users/PERINDAGKOP/Downloads/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="file:///C:/Users/PERINDAGKOP/Downloads/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="file:///C:/Users/PERINDAGKOP/Downloads/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="file:///C:/Users/PERINDAGKOP/Downloads/images/ico/apple-touch-icon-57-precomposed.png">
+<script type="text/javascript" charset="UTF-8" src="P_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="P_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="P_files/map.js"></script><script type="text/javascript" charset="UTF-8" src="P_files/marker.js"></script><style>._3emE9--dark-theme .-S-tR--ff-downloader{background:rgba(30,30,30,.93);border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);color:#fff}._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn{background:#3d4b52}._3emE9--dark-theme .-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover{background:#131415}._3emE9--dark-theme .-S-tR--ff-downloader ._10vpG--footer{background:rgba(30,30,30,.93)}._2mDEx--white-theme .-S-tR--ff-downloader{background:#fff;border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);color:#314c75}._2mDEx--white-theme .-S-tR--ff-downloader ._6_Mtt--header{font-weight:700}._2mDEx--white-theme .-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice{border:0;color:rgba(0,0,0,.88)}._2mDEx--white-theme .-S-tR--ff-downloader ._10vpG--footer{background:#fff}.-S-tR--ff-downloader{display:block;overflow:hidden;position:fixed;bottom:20px;right:7.1%;width:330px;height:180px;background:rgba(30,30,30,.93);border-radius:2px;color:#fff;z-index:99999999;border:1px solid rgba(82,82,82,.54);box-shadow:0 4px 7px rgba(30,30,30,.55);transition:.5s}.-S-tR--ff-downloader._3M7UQ--minimize{height:62px}.-S-tR--ff-downloader._3M7UQ--minimize .nxuu4--file-info,.-S-tR--ff-downloader._3M7UQ--minimize ._6_Mtt--header{display:none}.-S-tR--ff-downloader ._6_Mtt--header{padding:10px;font-size:17px;font-family:sans-serif}.-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn{float:right;background:#f1ecec;height:20px;width:20px;text-align:center;padding:2px;margin-top:-10px;cursor:pointer}.-S-tR--ff-downloader ._6_Mtt--header ._2VdJW--minimize-btn:hover{background:#e2dede}.-S-tR--ff-downloader ._13XQ2--error{color:red;padding:10px;font-size:12px;line-height:19px}.-S-tR--ff-downloader ._2dFLA--container{position:relative;height:100%}.-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info{padding:6px 15px 0;font-family:sans-serif}.-S-tR--ff-downloader ._2dFLA--container .nxuu4--file-info div{margin-bottom:5px;width:100%;overflow:hidden}.-S-tR--ff-downloader ._2dFLA--container ._2bWNS--notice{margin-top:21px;font-size:11px}.-S-tR--ff-downloader ._10vpG--footer{width:100%;bottom:0;position:absolute;font-weight:700}.-S-tR--ff-downloader ._10vpG--footer ._2V73d--loader{animation:n0BD1--rotation 3.5s linear forwards;position:absolute;top:-120px;left:calc(50% - 35px);border-radius:50%;border:5px solid #fff;border-top-color:#a29bfe;height:70px;width:70px;display:flex;justify-content:center;align-items:center}.-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar{width:100%;height:18px;background:#dfe6e9;border-radius:5px}.-S-tR--ff-downloader ._10vpG--footer ._24wjw--loading-bar ._1FVu9--progress-bar{height:100%;background:#8bc34a;border-radius:5px}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status{margin-top:10px}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1XilH--state{float:left;font-size:.9em;letter-spacing:1pt;text-transform:uppercase;width:100px;height:20px;position:relative}.-S-tR--ff-downloader ._10vpG--footer ._2KztS--status ._1jiaj--percentage{float:right}</style><script type="text/javascript" charset="UTF-8" src="P_files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="P_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="P_files/ViewportInfoService.GetViewportInfo"></script><script type="text/javascript" charset="UTF-8" src="P_files/vt"></script><script type="text/javascript" charset="UTF-8" src="P_files/AuthenticationService.Authenticate"></script><script type="text/javascript" charset="UTF-8" src="P_files/QuotaService.RecordEvent"></script></head><!--/head-->
+
+<body id="home" class="homepage">
+
+    <header id="header">
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="file:///C:/Users/PERINDAGKOP/Downloads/index.html"><img src="P_files/logo.png" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="#About Me">About Me</a></li>
+                        <li class="scroll"><a href="#Portfolio">Portfolio</a></li>
+                        <li class="scroll"><a href="#get-in-touch">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="main-slider">
+        <div class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+            <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2380px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(-595px, 0px, 0px); transform-origin: 892.5px center 0px; perspective-origin: 892.5px center;"><div class="owl-item" style="width: 595px;"><div class="item" style="url aji11.jpg);">
+			<img class="img-responsive" src="P_files/aji11.jpeg" alt="">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2>Private Coach<span>self Defense</span> Kamu akan berlatih dengan <span>Coach</span> yang berkompeten di bidang Self Defense</h2>
+                                    <p>memiliki beberapa club yg 
+mempunyai banyak abnggota dan sudah go nasional. dan sudah melatih 
+Privat Coach ke orang dan orang2 itu sudah memberikan kesaksian dan 
+manfat dengan adanya Privat Coach, </p>
+                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="owl-item" style="width: 595px;"><div class="item" style="url aji10.jpg;">
+			 <img class="img-responsive" src="P_files/aji10.jpeg" alt="">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2> PRIVATE COACH <span>SELF DEFENSE</span> JAGA DIRIMU SENDIRI DAN ORANG-ORANG YG KAMU CINTAI</h2>
+                                    <p>Dengan kita menguasai ilmu 
+beladiri kita memiliki kebranian/kepercayaan diri jika di ganggu oleh 
+orang-orang yg berniat jahat ke pada kita.selain itu kita bisa 
+melindunggi orang-orang yang kita cintai.</p>
+                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div></div><!--/.item-->
+             <!--/.item-->
+        <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div></div><div id="progressBar"><div id="bar" style="width: 73.7143%;"></div></div></div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
+
+    <section id="cta" class="wow fadeIn" style="visibility: hidden; animation-name: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2> Apa itu Privat Coach Self Defense?</h2>
+                    <p> Di dalam Privat Coach kita akan mempelajari ilmu
+ beladiri.yang akan kita pelajari dalam privat Coach ada Banyak antara 
+lain, gerakan dasar,pukulan dan tendangan kombinasi,latian power 
+mengunakan saksak,latian ketepatan mengunakan Target dan masih banyak 
+lagi yg di pelajar pada Privat Coach yg pada akhirnya kalian akan 
+manguasai ilmu beladiri.
+                    </p>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <a class="btn btn-primary btn-lg" href="#">Pelajari lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/#cta-->
+
+    <section id="About Me">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown" style="visibility: hidden; animation-name: none;"> APA YANG DI AJARKAN DI PRIVAT COACH</h2>
+                <p class="text-center wow fadeInDown" style="visibility: hidden; animation-name: none;">Dulu
+ saya adalah orang yang biasa dan minder tapi sekarang saya percaya 
+diri,apa yg saya lakukan bermanfaat ke orang lain terutama di kesehatan,
+ beladiri dan prestasi.semoga apa yg saya lakukan di masa depan lebih 
+bermanfaat lagi.<br> 
+				teman2 bisa mengunakan jasa Privat Coach kami untuk merasakan manfaat dari apa Privat Coach Self Defense </p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+                    <img class="img-responsive" src="P_files/aji9.jpeg" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <div class="media service-box wow fadeInRight" style="visibility: hidden; animation-name: none;">
+                        <div class="pull-left">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Senam yang melenturkan kaki dantanggan</h4>
+                            <p>senam kelenturan membuat kita lentur dan 
+kita tanggan dan kaki kita kentur ptomatis kita dapat dengan mudah 
+menguasai teknik2 dalan beladiri dengan mudah</p>
+                        </div>
+                    </div>
+
+                    <div class="media service-box wow fadeInRight" style="visibility: hidden; animation-name: none;">
+                        <div class="pull-left">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Gerakan Dasar</h4>
+                            <p>Gerakan dasar sanggat peting dalam 
+mempelajari Beladiri,karena gerakan dasar adalah pondasi untunk 
+menguasai gerakan beladiri tanpa gerakan dasar mempelarjari beladiri 
+menjadi hal yang sulit</p>
+                        </div>
+                    </div>
+
+                    <div class="media service-box wow fadeInRight" style="visibility: hidden; animation-name: none;">
+                        <div class="pull-left">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Kombinasi Pukulan Dan Tendangan</h4>
+                            <p>kombinasi membuat kita tidak tertebak dalam bertarung karena lawan tidak mengetahui serangan ke 2 apa yg akan kita keluarkan </p>
+                        </div>
+                    </div>
+
+                    <div class="media service-box wow fadeInRight" style="visibility: hidden; animation-name: none;">
+                        <div class="pull-left">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Separingan/Fight</h4>
+                            <p>latian separingan membuat kita tidak panik saat mnghadapi musuh dan juga memunculkan gerak reflek ketika bertarung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta2">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 0ms; animation-name: none;"><span>PRIVAT COACH SELF DEFENSE</span> BIASA MENJADI SOLUSI UNTUK KEAMANAN DIRI SENDIRI DAN KESEHATAN ANDA</h2>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 100ms; animation-name: none;"> Jangan dengar apa kata mereka fokus yakin kamu pasti bisa.<br> Kesehatan anda di masa depan di tentukan bagaimana kehidupan anda sehari-hari.</p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 200ms; animation-name: none;"><a class="btn btn-primary btn-lg" href="#">Daftar</a></p>
+                <img class="" src="P_files/a.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+            </div>
+        </div>
+    </section>
+
+    <section id="Portfolio">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown" style="visibility: hidden; animation-name: none;"></h2>
+                <p class="text-center wow fadeInDown" style="visibility: hidden; animation-name: none;">Berikut
+ ini adalah apa saja yg di ajarkan di Privat coach , ada banyak program 
+yg bagus yg bisa teman2 ikuti tergantung usia kalian . mari daftar dan 
+rasakan manfaanya <br></p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 0ms; animation-name: none;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-line-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">PRIVAT COACH KELAS BELADIRI</h4>
+                                <p>DI KELAS INI KAMI BERFOKUS PADA 
+KETRAMPILAN UNTUK MEMPERTAHAN KAN DIRI SENDIRI DARI SERANGAN MUSUH, JADI
+ DI PRIVAT COACH bLADIRI INI bANYAK LATIAN POWER SAMA MEMPERKUAT TUBUH</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 100ms; animation-name: none;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-cubes"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">PRIVAT COACH PRESTASI</h4>
+                                <p>Di Privat Coach ini kebanyakan adalah
+ anak anak muda yg kepenegne punya prestasi di bidang beladiri,krna di 
+masa sekarang prestasi menjadi sebuah menjadi kebanggan,kebanggan untuk 
+kita sendiri dan kebanggan untuk orang yg kita sayanggi</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 200ms; animation-name: none;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-pie-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">MENYEDIAKAN ALAT UNTUK PARA PRIVAT CIACH</h4>
+                                <p>Alat sangat menunjang saat latian 
+,latian tanpa alat dan latian dengan alat perkembanganyyasanggat pesat 
+menggunakan alat,jadi di Privat coach sudah di sediakan sehinggs tinggal
+ makai</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 300ms; animation-name: none;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">MOTIVASI BAGI PESERTA PRIVAT COACH</h4>
+                                <p>Motivasi menjadi sanggat penting 
+dalam latian ,biasanya kami bertanyya apa tujuan ikut Privat 
+coach,kebanyakan yg mempunyai tujuan orangnya semangat.dan jika tidak 
+semangat kami memberikan semangat seperti motivator2 pada umumnya</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" style="visibility: hidden; animation-duration: 300ms; animation-delay: 400ms; animation-name: none;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-language"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">MATERI YANG BERKUALITAS</h4>
+                                <p>Materi sangat berpengaruh saat latian
+ ,jika materi yang di ajarkan tidak jelas maka hasilnya pun tidak jelas 
+dan jika materi yang di ajarkan berkualitas maka hasilnya pun 
+berkualitas juga</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 500ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bullseye"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">MENYARANKAN MAKAN MAKANAN YG SEHAT</h4>
+                                <p>Tanpa makanan yg sehat kita bisa kekurangan gizi/ungkris2sen maka banyaklah makan makanan yang sehat dan bergizi</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+    <section id="contact">
+        <div id="google-map" style="height: 650px; position: relative; overflow: hidden;" data-latitude="52.365629" data-longitude="4.871331"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;" class="gm-style"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;" tabindex="0"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -179, -190);"><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 512px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="width: 27px; height: 43px; overflow: hidden; position: absolute; left: -14px; top: -43px; z-index: 0;"><img style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="P_files/spotlight-poi2.png" draggable="false"></div><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -179, -190);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 512px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 986; transform: matrix(1, 0, 0, 1, -179, -190);"><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_006.png"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_002.png"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_005.png"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_007.png"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt.png"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_010.png"></div><div style="position: absolute; left: 256px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_008.png"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_012.png"></div><div style="position: absolute; left: 0px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_009.png"></div><div style="position: absolute; left: -256px; top: 512px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_004.png"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_003.png"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img style="width: 256px; height: 256px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" role="presentation" src="P_files/vt_011.png"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div style="width: 27px; height: 43px; overflow: hidden; position: absolute; opacity: 0; left: -14px; top: -43px; z-index: 0;"><img style="position: absolute; left: 0px; top: 0px; width: 27px; height: 43px; user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="P_files/spotlight-poi2.png" draggable="false" usemap="#gmimap0"><map name="gmimap0" id="gmimap0"><area log="miw" coords="13.5,0,4,3.75,0,13.5,13.5,43,27,13.5,23,3.75" shape="poly" title="" style="cursor: pointer; touch-action: none;"></map></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: medium none;" frameborder="0"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=52.365629,4.871331&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="P_files/google4.png" draggable="false"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 148px; top: 235px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Map Data</div><div style="font-size: 13px;">Map data ©2020 Google</div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;" draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 166px; bottom: 0px; width: 121px;"><div draggable="false" style="user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2020 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2020 Google</div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" rel="noopener">Terms of Use</a></div></div><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;" draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button><div draggable="false" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" href="https://www.google.com/maps/@52.365629,4.871331,14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; user-select: none; position: absolute; bottom: 127px; right: 40px;" draggable="false" controlwidth="40" controlheight="113"><div class="gmnoprint" style="position: absolute; left: 0px; top: 32px;" controlwidth="40" controlheight="81"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom in" aria-label="Zoom in" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;" draggable="false" title="Zoom out" aria-label="Zoom out" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button></div></div><div style="position: absolute; left: 20px; top: 0px;"></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: none; border: 0px none; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;" draggable="false" title="Rotate map 90 degrees" aria-label="Rotate map 90 degrees" type="button" class="gm-control-active"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="height: 18px; width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button><button style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;" draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"><img style="width: 18px;" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A"></button></div></div></div></div></div><div style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;"><div><img alt="" src="P_files/google_gray.svg" style="padding: 0px; margin: 0px; border: 0px none; height: 17px; vertical-align: middle; width: 52px; user-select: none;" draggable="false"></div><div style="line-height: 20px; margin: 15px 0px;"><span style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">This page can't load Google Maps correctly.</span></div><table style="width: 100%;"><tr><td style="line-height: 16px; vertical-align: middle;"><a href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=keyless#api-key-and-billing-errors" target="_blank" rel="noopener" style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Do you own this website?</a></td><td style="text-align: right;"><button class="dismissButton">OK</button></td></tr></table></div></div>
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-8">
+                        <div class="contact-form">
+                            <h3>Contact Info</h3>
+
+                            <address>
+                              <strong>Kontak WA.</strong><br>
+                              089607050062<br>
+                              <br>ig : aji pangestu_u<br>
+                              <abbr title="Phone">Phone:</abbr> (123) 456-7890
+                            </address>
+
+                            <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required="">
+                                </div>
+                                
+                                </form></div>
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="8" placeholder="Message" required=""></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Kirim pesan</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section><!--/#bottom-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    © 2014 Your Company. Designed by <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="P_files/jquery_002.js"></script>
+    <script src="P_files/bootstrap.js"></script>
+    <script src="P_files/js"></script>
+    <script src="P_files/owl.js"></script>
+    <script src="P_files/mousescroll.js"></script>
+    <script src="P_files/smoothscroll.js"></script>
+    <script src="P_files/jquery_004.js"></script>
+    <script src="P_files/jquery.js"></script>
+    <script src="P_files/jquery_003.js"></script>
+    <script src="P_files/wow.js"></script>
+    <script src="P_files/main.js"></script>
+
+</body></html>
